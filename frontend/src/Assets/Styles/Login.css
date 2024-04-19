@@ -1,0 +1,45 @@
+.login-container {
+  background-color: #c4cdc1;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.login-container form {
+  padding: 1rem 1rem;
+  margin: auto;
+}
+.login-container form h1 {
+  font-size: 25px;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.image {
+  width: 300px;
+  padding: 2rem;
+  margin: auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.login-container form .submit-btn {
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: white;
+}

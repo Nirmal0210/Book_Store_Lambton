@@ -1,0 +1,35 @@
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: rgb(196, 205, 193);
+  border-radius: 5px;
+  margin: 5px 0px;
+  box-shadow: rgba(196, 205, 193, 0.2) 0px 2px 8px 0px;
+}
+.cart-item p {
+  margin: 0px;
+}
+.cart-item h4 {
+  margin: 0px;
+}
+.cart-btn {
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: white;
+  text-align: center;
+  font-size: px18;
+}
+h1 {
+  font-size: 20px;
+  padding: 1rem;
+  font-weight: 700;
+  text-align: center;
+}
+h2 {
+  font-size: 24px;
+  padding: 1rem;
+  font-weight: 700;
+}
